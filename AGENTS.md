@@ -21,6 +21,7 @@ This AGENTS.md provides common development guidelines for AI coding agents acros
 - Comment non-obvious decisions or logic, rather than narrating obvious code. Report incomplete work or material workarounds in the PR/MR or hand-off. A code comment alone does not resolve the issue.
 - Handle relevant errors and edge cases; preserve compatibility with supported environments.
 - Prefer existing dependencies and built-in functionality when practical; update dependency declarations when needed.
+- Follow the repository's license. Check upstream terms and compatibility before incorporating third-party code, assets, or dependencies. Record the provenance of copied or adapted material and preserve the required copyright and license notices.
 - Never hardcode, commit, disclose, or transfer passwords, tokens, credentials, or private signing keys.
 
 ## 3. Proportionate Validation
@@ -121,6 +122,7 @@ This AGENTS.md provides common development guidelines for AI coding agents acros
 
 - Keep documentation short, accurate, and useful.
 - Update the README and related instructions when changes affect users, installation, configuration, or operation.
+- Include a small set of badges near the top of a software project's main README. Show the main programming language and add badges for runtimes, development tools, or deployment environments when they clarify how to use the project. Verify any version shown against the repository's configuration or documentation and keep the badges current.
 - Record important assumptions, non-obvious behavior, and known limitations.
 - Keep executable procedures in scripts or appropriate tooling; reference them from AGENTS.md rather than embedding lengthy instructions.
 - Do not create unnecessary documentation files.
